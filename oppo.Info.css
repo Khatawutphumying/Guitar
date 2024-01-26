@@ -118,7 +118,7 @@ body {
     max-width: 84%;
     padding: 1rem 2rem;
     backdrop-filter: blur(10px);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 251, 251, 0.948);
     border-radius: 0.25rem;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -213,10 +213,9 @@ body {
     border-style: outset;
   }
   .c1 {
-      width: 81%;
+      width: 87%;
       display: flex;
       border-style: ridge;
-      padding: 1rem 3rem;
       border-radius: 2rem 2rem 2rem 2rem;
       background-color: #fff;
       flex-direction: column;

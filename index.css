@@ -83,7 +83,8 @@ body {
 /* จบแถบเมนู */
 /* เริ่มเนื้อหา */
 .y1 {
-    border-style: outset;
+  border-style: outset;
+
 }
 .p3 {
   display: flex;
@@ -93,32 +94,23 @@ body {
 }
 .p1 {
     width: 87%;
-    background-color: #faffff;
 }
 .l5 {
   width: 87%;
   display: flex;
   background-color: #ffffff;
   flex-direction: row-reverse;
-}
-.container1 {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: baseline;
   justify-content: center;
 }
-
 .modal {
-  max-width: 80%;
+  max-width: 100%;
   padding: 1rem 2rem;
-  backdrop-filter: blur(10px);
-  background-color: #ffffff;
-  border-radius: 0.25rem;
 }
+.modal1 {
+  max-width: 30%;
+  padding: 1rem 2rem;
+}
+
 /* ส่วนท้าย */
 .jh {
     text-align: center;
@@ -197,10 +189,9 @@ button{
   text-align: center;
 }
 .c1 {
-    width: 78%;
+    width: 87%;
     display: flex;
     border-style: ridge;
-    padding: 1rem 3rem;
     border-radius: 2rem 2rem 2rem 2rem;
     background-color: #fff;
     flex-direction: column;
@@ -208,9 +199,8 @@ button{
 }
 /* สิ้นสุดปุ่ม button */
   .fdf1 {
-    max-width: 23%;
+    width: 22%;
     text-align: center;
-    margin: 0;
     padding: 0;
     list-style: none;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -247,3 +237,36 @@ button{
   ul.dropdown1 :hover{
     border-radius: 2rem 2rem 2rem 2rem;
   }
+.slide
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.slide figure img
+{
+  width: 20%;
+  float: left;
+}
+.slide figure 
+{
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0px;
+  animation: krutom 20s infinite linear;
+}
+@keyframes krutom 
+{
+  0%{left: 0%;}
+  15%{left: 0%;}
+  20%{left: -100%;}
+  35%{left: -100%;}
+  40%{left: -200%;}
+  60%{left: -200%;}
+  65%{left: -300%;}
+  80%{left: -300%;}
+  85%{left: -400%;}
+  100%{left:-400%;}
+}
