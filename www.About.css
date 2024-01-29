@@ -90,10 +90,11 @@ body {
     justify-content: center;
 }
 .k1 { 
-    color: #070707;
+    display: flex;
     text-align: center;
     background-color: rgb(255, 254, 254);
-} 
+    flex-direction: column;
+    align-items: center;} 
 .jh {
     text-align: center;
     color: #faffff;
@@ -129,15 +130,22 @@ body {
     z-index: -1;
     transition: all 0.25s ease;
 }
+.d4 {
+    border-style: outset ridge groove;
+}
 .d3 {
-    text-align: center;
+    width: 60%;
+    font-size: 22px;
+    padding: 0.50rem 0rem;
+    border-radius: 3rem 3rem 3rem 3rem;
+    color: #0b0b0b;
+    border-style: outset ridge  ;
 }
 .ff6 {
     display: flex;
-    font-size: 18px;
     justify-content: space-evenly;
 }
 .ff7 {
     display: flex;
-    max-width: 80%;
+    width: 70%;
 }
