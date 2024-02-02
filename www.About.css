@@ -133,12 +133,13 @@ body {
 .d4 {
     border-style: outset ridge groove;
 }
-.d3 {
-    width: 60%;
+.d333 {
+    width: 34%;
     font-size: 22px;
     padding: 0.50rem 0rem;
-    border-radius: 3rem 3rem 3rem 3rem;
-    color: #0b0b0b;
+    border-radius: 1rem 1rem 1rem 1rem;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(164, 10, 10), rgb(244, 11, 11),rgb(151, 5, 5));
     border-style: outset ridge  ;
 }
 .ff6 {
@@ -147,5 +148,5 @@ body {
 }
 .ff7 {
     display: flex;
-    width: 70%;
+    width: 100%;
 }
